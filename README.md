@@ -1,19 +1,18 @@
-# Ensemble Deep Learning Framework for Robust Arrhythmia Detection
+Ensemble Deep Learning Framework for Robust Arrhythmia Detection
 
-> 🏥 A comparative deep learning framework for cardiac arrhythmia classification using ECG signals  
-> 🧠 Includes CNN, LSTM, and CNN-BiLSTM models tested on the MIT-BIH Arrhythmia Dataset  
-> 📊 Achieved **98.71% accuracy** and **92.72% macro F1-score** with CNN-BiLSTM  
+🏆 Conference Accepted Work
+This project was presented and accepted at the 3rd International Conference on Industry 4.0 Technology (I4Tech2025), IEEE Conference #64670
+📄 Paper Title: Ensemble Deep Learning Framework for Robust Arrhythmia Detection
 
----
+📌 Abstract
 
-## 📌 Abstract
+Cardiac arrhythmias, characterized by irregular heart rhythms, are a leading cause of morbidity and mortality worldwide, often leading to stroke, heart failure, or sudden cardiac arrest. Accurate and early detection plays a vital role in patient safety and treatment.
 
-Cardiac arrhythmias are irregular heart rhythms that can lead to stroke, heart failure, or sudden cardiac arrest. This project presents a deep learning-based ECG classification system using three architectures — **CNN**, **LSTM**, and **CNN-Bidirectional LSTM (CNN-BiLSTM)** — trained on the **MIT-BIH Arrhythmia Dataset** following the **AAMI standard**.
+This work introduces a comparative deep learning framework for ECG-based arrhythmia detection using three architectures — Convolutional Neural Networks (CNN), Long Short-Term Memory Networks (LSTM), and a hybrid CNN-Bidirectional LSTM (CNN-BiLSTM). The models were trained and evaluated on the MIT-BIH Arrhythmia Dataset, adhering to the AAMI EC57 standard for heartbeat classification.
 
-After comparative analysis:
-- **CNN-BiLSTM** outperformed all models with **98.71% accuracy**
-- Showed significant improvement in detecting **minority classes** like Supraventricular (S) and Fusion (F) beats
-- Trained using advanced techniques like **dropout**, **learning rate scheduling**, and **gradient clipping**
+Experimental results highlight that the CNN-BiLSTM model achieved superior performance with 98.71% accuracy and a 92.72% macro F1-score, outperforming both standalone CNN and LSTM. The hybrid model demonstrated significant improvements in identifying minority heartbeat classes such as Supraventricular (S) and Fusion (F) beats, which are critical for real-world clinical deployment.
+
+The study concludes that ensemble and hybrid deep learning architectures provide a more robust solution for automated arrhythmia detection, with strong potential for integration into wearable IoMT (Internet of Medical Things) devices and real-time healthcare monitoring systems.
 
 ---
 

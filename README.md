@@ -1,7 +1,7 @@
 Ensemble Deep Learning Framework for Robust Arrhythmia Detection
 
-> 🏆 **Conference Accepted Work**
-> This project was presented and accepted at the **3rd International Conference on Industry 4.0 Technology (I4Tech2025), IEEE Conference #64670**
+> 🏆 **Conference Accepted Work**  
+> This project was presented and accepted at the **3rd International Conference on Industry 4.0 Technology (I4Tech2025), IEEE Conference #64670**  
 > 📄 Paper Title: *Ensemble Deep Learning Framework for Robust Arrhythmia Detection*
 
 📌 Abstract
